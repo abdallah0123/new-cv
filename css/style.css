@@ -1,0 +1,197 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+html{
+  font-size:62.5%;
+
+}
+body{
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color:#40514e;
+}
+h1{
+  color: #1eb2a6;
+  font-family: 'Sacramento', cursive;
+  font-size:9rem;
+  margin-top: 5rem;
+
+}
+h2{
+  color: #1eb2a6;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4rem;
+  font-weight: 400;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 1rem;
+  font-size: 2rem;
+  color:#20c1b4;
+}
+
+  p{
+
+  margin-top: 2rem;
+  font-size: 2rem;
+  line-height: 2;
+}
+
+hr{
+    color:#f0f5f9;
+  border-style: dotted none none;
+  border-width: .6rem;
+  width:10rem;
+  margin: 8rem auto ;
+
+}
+
+.top-container{
+  position: relative;
+  background: #e4f9f5;
+  padding-top: 10rem;
+  height: 87vh;
+}
+
+.text-box{
+  position: absolute;
+  top: 10rem;
+  left: 44%
+}
+
+.bottom-cloud{
+position: absolute;
+left:30rem;
+top: 35rem;
+}
+
+.top-cloud{
+  position: absolute;
+  top:50px;
+  right: 35rem;
+}
+
+.mountain{
+position: absolute;
+bottom: 0;
+left: 27%;
+width: 75rem;
+}
+.profile{
+  width: 35%;
+  margin: 5rem auto;
+}
+.photo{
+  width: 20rem;
+  padding: 5rem;
+  transform: rotate(90deg);
+  border-radius: 10rem;
+  margin-bottom: 1rem;
+}
+
+
+.skill-row{
+  /* background-color: */
+    width: 50%;
+    /* float: left; */
+    margin:10rem auto;
+    text-align: left;
+}
+
+
+.desc{
+  padding-top: .5rem;
+
+}
+
+.computer{
+  border-radius: 100%;
+  width: 25%;
+  float: left;
+  margin-right:3rem;
+}
+.monitor{
+  width: 40rem;
+  width: 25%;
+  float: right;
+  margin-left:3rem;
+
+
+
+}
+
+.contact-me{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.bottom-container
+{
+  padding-top: 4rem;
+  margin-top: 2rem;
+  background-color:#11999e;
+}
+
+.message{
+  width:60%;
+  margin:3rem auto 0;
+}
+.get{
+  margin-bottom: 3rem;
+}
+.btn{
+  display: inline-block;
+  font-size: 2rem;
+  padding:2rem 5rem;
+  margin-top: 4rem;
+  background-color: #1eb2a6;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+  transition: 0.4s ease;
+  margin-bottom: 2rem;
+  letter-spacing: 2px
+
+
+}
+
+
+.btn:hover{
+background-color: #1bc5ae;
+}
+
+.footer-link{
+  text-decoration: none;
+  margin-right: 3rem;
+  font-size: 2rem;
+  color:#30e3ca;
+  font-family: 'Montserrat', sans-serif;
+  transition:0.5s ease;
+
+}
+
+.footer-link:hover{
+  color: #0f6c5f  ;
+}
+
+.copyright{
+  padding: 1rem 0 2rem;
+  color:#e6e6e6;
+  font-family:sans-serif;
+  font-size: 1.8rem;
+
+}
+.name{
+  transition: all 0.5s ease;
+  text-decoration: none;
+  color: #e6e6e6;
+
+}
+.name:hover{
+  color:#0f6c5f;
+  transition: all 0.4s ease;
+  transform: skew(0deg,-10deg);
+
+}
